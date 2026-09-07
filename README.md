@@ -2,8 +2,6 @@
 
 I build the **NX family**: VR streaming experiments, Blender tools, and apps that run on your own hardware. The projects range from GPU video codecs to everyday desktop utilities.
 
-**[Discover the NX apps →](https://github.com/nerdrx/nx-hub)** · [Explore NX Warp](https://github.com/nerdrx/nx-warp) · [All projects](https://github.com/nerdrx?tab=repositories)
-
 ## From the workshop
 
 | Project | What I’m building |
