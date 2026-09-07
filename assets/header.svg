@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">nerdrx — VR, creative tools, and local-first software</title>
+  <desc id="desc">A dark violet banner with cyan and violet geometric tiles.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101020"/><stop offset="1" stop-color="#211335"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#69E5DC"/><stop offset="1" stop-color="#B699FF"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#7B58DB" stop-opacity=".35"/><stop offset="1" stop-color="#7B58DB" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="960" height="260" rx="20" fill="url(#bg)"/>
+  <circle cx="790" cy="132" r="180" fill="url(#halo)"/>
+  <g fill="none" stroke="url(#line)">
+    <ellipse cx="789" cy="136" rx="117" ry="58" transform="rotate(-30 789 136)" opacity=".5"/>
+    <ellipse cx="789" cy="136" rx="117" ry="58" transform="rotate(30 789 136)" opacity=".25"/>
+    <circle cx="789" cy="136" r="70" opacity=".15"/>
+  </g>
+  <circle cx="887" cy="81" r="5" fill="#B699FF"/>
+  <circle cx="697" cy="193" r="4" fill="#69E5DC"/>
+  <g fill="none" stroke="url(#line)" stroke-width="2" stroke-linejoin="round">
+    <path d="M789 83 839 111 839 168 789 196 739 168 739 111Z"/>
+    <path d="M739 111 789 140 839 111 M789 140 789 196 M764 97 814 125 814 182 M814 97 764 125 764 182 M739 139 789 168 839 139" opacity=".65"/>
+  </g>
+  <path d="M789 83 814 97 789 112 764 97Z" fill="#69E5DC" opacity=".8"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="48" y="55" font-size="12" font-weight="600" letter-spacing="3" fill="#69E5DC">THE NX WORKSHOP</text>
+    <text x="44" y="135" font-size="70" font-weight="750" letter-spacing="-3" fill="#F6F2FF">nerdrx</text>
+    <text x="48" y="180" font-size="20" fill="#D3CBE3">VR, creative tools, and local-first software.</text>
+    <text x="48" y="219" font-size="13" fill="#ADA3BF">LINUX / BLENDER / LOCAL AI / VR</text>
+  </g>
+</svg>
