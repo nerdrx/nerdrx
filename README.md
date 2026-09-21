@@ -1,11 +1,22 @@
 <img src="assets/header.svg" alt="nerdrx — VR, creative tools, and local-first software." width="100%" />
 
-I build the **NX family**: VR streaming experiments, Blender tools, and apps that run on your own hardware. The projects range from GPU video codecs to everyday desktop utilities.
+I build the **NX family**: VR streaming experiments, avatar materials, Blender tools, and apps that run on your own hardware. The projects range from GPU video codecs to everyday desktop utilities.
+
+## NX Shader Graph
+
+[![NX Shader Graph — a node editor for VRChat materials](https://raw.githubusercontent.com/nerdrx/nxsg/main/docs/assets/nxsg-banner.svg)](https://github.com/nerdrx/nxsg)
+
+Build custom VRChat materials with nodes in Unity. Toon and PBR shading, fur, glitter, holograms and animated effects—with live previews while you work.
+
+**Early alpha.** Developed on Linux for Unity 2022.3.22f1 and PC Built-In. Headset and VRChat client validation is still ahead.
+
+[**Try NXSG**](https://nerdrx.github.io/nxsg/#install) · [See the material examples](https://nerdrx.github.io/nxsg/#material-studies) · [Source and progress](https://github.com/nerdrx/nxsg)
 
 ## From the workshop
 
 | Project | What I’m building |
 | :--- | :--- |
+| **[NXSG](https://github.com/nerdrx/nxsg)** | A node editor for custom VRChat materials: fur, lighting, layers and animation. **Early alpha.** |
 | **[NX Hub](https://github.com/nerdrx/nx-hub)** | One place to install, update, and launch the NX app family. |
 | **[NX Warp](https://github.com/nerdrx/nx-warp)** | A Vulkan compute video codec exploring low-latency VR streaming. **Pre-alpha research.** |
 | **[NX Recall](https://github.com/nerdrx/nx-recall)** | Local speech transcription, speaker identity, and searchable conversation history. [**Linux download.**](https://github.com/nerdrx/nx-recall/releases/latest) |
