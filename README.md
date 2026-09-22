@@ -12,6 +12,10 @@ Build custom VRChat materials with nodes in Unity. Toon and PBR shading, fur, gl
 
 [**Try NXSG**](https://nerdrx.github.io/nxsg/#install) · [See the material examples](https://nerdrx.github.io/nxsg/#material-studies) · [Source and progress](https://github.com/nerdrx/nxsg)
 
+[![NXSG raymarching example — volume pearl sculpture](https://raw.githubusercontent.com/nerdrx/nxsg/main/docs/images/volume-pearl-sculpture.png)](https://nerdrx.github.io/nxsg/#raymarching)
+
+Raymarching nodes are available in alpha26; three newer study graphs remain source-only for now. [Explore the raymarching examples](https://nerdrx.github.io/nxsg/#raymarching).
+
 ## From the workshop
 
 | Project | What I’m building |
