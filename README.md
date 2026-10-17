@@ -1,37 +1,45 @@
 <img src="assets/header.svg" alt="nerdrx — VR, creative tools, and local-first software." width="100%" />
 
-I build the **NX family**: VR streaming experiments, avatar materials, Blender tools, and apps that run on your own hardware. The projects range from GPU video codecs to everyday desktop utilities.
+I build the **NX family**: expressive avatar materials, GPU experiments, and software you can run on your own hardware. This is the workshop—try a build, explore the research, or follow what comes next.
 
-## NX Shader Graph
+## NXSG
 
-[![NX Shader Graph — a node editor for VRChat materials](https://raw.githubusercontent.com/nerdrx/nxsg/main/docs/assets/nxsg-banner.svg)](https://github.com/nerdrx/nxsg)
+[![NX Shader Graph — visual materials for VRChat](https://raw.githubusercontent.com/nerdrx/nxsg/main/docs/assets/nxsg-banner.svg)](https://github.com/nerdrx/nxsg)
 
-Build custom VRChat materials with nodes in Unity. Toon and PBR shading, fur, glitter, holograms and animated effects—with live previews while you work.
+Build VRChat avatar materials by connecting nodes in Unity. Toon and PBR shading, fur, particles, procedural textures, and animated effects—with live previews as you work. Built for PC VRChat; mobile materials use a separate snapshot bake.
 
-**Early alpha.** Developed on Linux for Unity 2022.3.22f1 and PC Built-In. Headset and VRChat client validation is still ahead.
+[**Get NXSG →**](https://nerdrx.github.io/nxsg/#install) · [First material](https://github.com/nerdrx/nxsg/blob/main/docs/QUICK_START.md) · [Source](https://github.com/nerdrx/nxsg)
 
-[**Try NXSG**](https://nerdrx.github.io/nxsg/#install) · [See the material examples](https://nerdrx.github.io/nxsg/#material-studies) · [Source and progress](https://github.com/nerdrx/nxsg)
+## zVram
 
-[![NXSG raymarching example — volume pearl sculpture](https://raw.githubusercontent.com/nerdrx/nxsg/main/docs/images/volume-pearl-sculpture.png)](https://nerdrx.github.io/nxsg/#raymarching)
+Explore GPU memory beyond local VRAM: Vulkan and HIP allocation tools, lossless idle snapshots, and managed buffers. **Experimental research**, with measured results and explicit compatibility limits.
 
-Raymarching nodes were introduced in alpha26, and the study graphs are included in alpha27. [Explore the raymarching examples](https://nerdrx.github.io/nxsg/#raymarching).
+[**Explore zVram →**](https://github.com/nerdrx/zVram) · [Project website](https://nerdrx.github.io/zVram/)
 
-## From the workshop
+## Warp
 
-| Project | What I’m building |
-| :--- | :--- |
-| **[NXSG](https://github.com/nerdrx/nxsg)** | A node editor for custom VRChat materials: fur, lighting, layers and animation. **Early alpha.** |
-| **[NX Hub](https://github.com/nerdrx/nx-hub)** | One place to install, update, and launch the NX app family. |
-| **[NX Warp](https://github.com/nerdrx/nx-warp)** | A Vulkan compute video codec exploring low-latency VR streaming. **Pre-alpha research.** |
-| **[NX Recall](https://github.com/nerdrx/nx-recall)** | Local speech transcription, speaker identity, and searchable conversation history. [**Linux download.**](https://github.com/nerdrx/nx-recall/releases/latest) |
-| **[NX Loom](https://github.com/nerdrx/nx-loom)** | A Blender addon where you draw the edge flow and generate a quad mesh from it. |
-| **[NxTakt](https://github.com/nerdrx/nxtakt)** | A native Linux music workstation built around clips, scenes, and live performance. |
-| **[QuadForge](https://github.com/nerdrx/quadforge)** | Automatic retopology for Blender, with adaptive density, guide curves, and symmetry. |
+A GPU-native video codec exploring low-latency VR streaming with WiVRn NX. Follow the experiments, measured results, and tradeoffs. **Research prototype; no end-user download yet.**
 
-## Follow the builds
+[**Explore Warp →**](https://github.com/nerdrx/nx-warp) · [Design paper](https://github.com/nerdrx/nx-warp/blob/main/docs/PAPER.md)
 
-Follow **[@nerdrx](https://github.com/nerdrx)** to keep up with the workshop. For build notifications, open a project and choose **Watch → Custom → Releases**.
+## Novum Xenium
 
-Tried a build, found a bug, or have a feature idea? Open an issue in the relevant project. Specific feedback helps shape what comes next.
+Bring models, tools, projects, and chats together in a self-hosted AI workspace, with desktop and Android companions. Built on Odysseus, with NX improvements to usability, reliability, and integration.
 
-<sub>Rust · C++ · Python · JavaScript / TypeScript · Kotlin · Linux &amp; Wayland</sub>
+[**Get started with Novum →**](https://github.com/nerdrx/novum-xenium#get-started) · [Desktop and Android releases](https://github.com/nerdrx/novum-xenium/releases)
+
+## Recall
+
+Local speech transcription, speaker identity, and searchable conversation history for VR and voice chat. Capture starts with the applications you explicitly allow.
+
+[**Explore Recall →**](https://github.com/nerdrx/nx-recall) · [Linux download](https://github.com/nerdrx/nx-recall/releases/latest)
+
+## Hub
+
+One place to discover, install, update, and launch the NX apps. Downloads come from GitHub Releases, with checksum and signature verification where available.
+
+[**Get NX Hub →**](https://github.com/nerdrx/nx-hub#start-here)
+
+---
+
+**Follow the builds.** Follow [@nerdrx](https://github.com/nerdrx), or choose **Watch → Custom → Releases** on a project for new builds. Tried something? Bug reports, screenshots, and specific feedback are welcome in that project's issues.
