@@ -55,7 +55,7 @@ Local speech transcription, speaker identity, and searchable conversation histor
 
 <a href="https://github.com/nerdrx/nx-recall"><img src="https://raw.githubusercontent.com/nerdrx/nx-recall/0e876a89ce3d8be1840a590d9979f25bea704fe1/assets/readme/voice-settings.png" width="100%" alt="Recall local voice assistant settings with voice choice and speaking speed controls" /></a>
 
-<sub>Recall’s local voice controls. No private conversation capture needed for this tour.</sub>
+<sub>Choose a local voice and tune its speaking speed.</sub>
 
 ```mermaid
 flowchart LR
