@@ -29,7 +29,7 @@ I build the **NX family**: graphics tools, GPU experiments, and local-first apps
 
 ## how this gets written
 
-Most of this is written together with AI. It does the drudge work and the grepping, I decide the architecture and what actually ships — nothing goes out that I can't explain from first principles. It's the fastest junior dev ever, and it occasionally lies with complete confidence.
+Most of this is written together with AI. It does the boring work and the grepping, I decide the architecture and what actually ships — nothing goes out that I can't explain from first principles. It's the fastest junior dev ever, with a speed thats hard to pass on BUT it occasionally lies with complete confidence...
 
 ---
 
