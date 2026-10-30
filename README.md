@@ -9,23 +9,23 @@ I build the **NX family**: graphics tools, GPU experiments, and local-first apps
 ## what's here
 
 **graphics & modelling**
-- [nxsg](https://github.com/nerdrx/nxsg) — visual shader editor for VRChat avatars. Toon, PBR, fur, particles
-- [quadforge](https://github.com/nerdrx/quadforge) — free auto-retopology for Blender, a Quad Remesher replacement
+- [nxsg](https://github.com/nerdrx/nxsg) — visual shader editor for VRChat avatars. Toon, PBR, fur, particles (this is actually quite good)
+- [quadforge](https://github.com/nerdrx/quadforge) — free auto-retopology for Blender, a Quad Remesher replacement (dont bother using it on complex stuff)
 - [nx-loom](https://github.com/nerdrx/nx-loom) — authored quad topology: you draw the layout, it does the quads
 
 **gpu & performance**
-- [zVram](https://github.com/nerdrx/zVram) — poking at GPU memory beyond VRAM: telemetry, capacity probes, lossless compression
-- [nx-warp](https://github.com/nerdrx/nx-warp) — Vulkan compute video codec for low-latency VR streaming. Research, not a product yet
+- [zVram](https://github.com/nerdrx/zVram) — poking at GPU memory beyond VRAM: telemetry, capacity probes, lossless compression (cool but useless)
+- [nx-warp](https://github.com/nerdrx/nx-warp) — Vulkan compute video codec for low-latency VR streaming. Research, not a product yet (mostly research)
 - [wivrn-nx](https://github.com/nerdrx/wivrn-nx) — my working copy of the OpenXR streaming stack that warp runs on
 
 **audio**
-- [nxtakt](https://github.com/nerdrx/nxtakt) — native Linux DAW, Ableton-style clip launching, from-scratch C++20
+- [nxtakt](https://github.com/nerdrx/nxtakt) — native Linux DAW, Ableton-style clip launching, from-scratch C++20 (mostly a tech demo)
 - [pulsenx](https://github.com/nerdrx/pulsenx) — smartwatch heart rate → desktop, OBS, Discord, VRChat
 
 **the rest**
 - [nxclone](https://github.com/nerdrx/nxclone) — avatar clones, dance partners and afterimages for PC VRChat
 - [nx-glow](https://github.com/nerdrx/nx-glow) — window colours spilling softly across your KDE wallpaper
-- [nx-hub](https://github.com/nerdrx/nx-hub) — installs, updates and launches all of the above
+- [nx-hub](https://github.com/nerdrx/nx-hub) — installs, updates and launches all of the above (also works with custom repos)
 
 ## how this gets written
 
