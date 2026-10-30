@@ -4,7 +4,7 @@
 
 </div>
 
-I build the **NX family**: graphics tools, GPU experiments, and local-first apps for my own hardware. Most of it exists because I wanted it to exist. Some of it is polished, some of it is "it works in the best ways".
+I build the **NX family**: graphics tools, GPU experiments, and local-first apps for my own hardware. Most of it exists because I wanted it to exist. Some of it is polished, some of it is "it works in the best ways... sometimes".
 
 ## what's here
 
