@@ -1,141 +1,35 @@
-<img src="assets/header.svg" alt="nerdrx — VR, creative tools, and local-first software." width="100%" />
+<div align="center">
 
-I build the **NX family**: avatar materials, GPU experiments, and apps for your own hardware.
+![nerdrx — VR, creative tools, and local-first software.](assets/header.svg)
 
-## From the workshop
+</div>
 
-<table>
-<tr>
-<td width="112"><a href="https://github.com/nerdrx/nxsg"><img src="https://raw.githubusercontent.com/nerdrx/nxsg/fa81d1095fd976936f6fa6e8ee5490a67cbb9111/docs/assets/hologram-study.png" width="104" alt="Violet and cyan hologram material rendered on a sphere and capsule" /></a></td>
-<td><a href="https://github.com/nerdrx/nxsg"><strong>NXSG</strong></a><br/>Visual VRChat materials. Connect nodes, preview, build.</td>
-</tr>
-<tr>
-<td width="112"><a href="https://github.com/nerdrx/zVram"><img src="https://raw.githubusercontent.com/nerdrx/zVram/84d010f852268708f7c38e094d36b5d5361c61df/assets/manager-preview.png" width="104" alt="zVram manager preview showing memory telemetry and controls for managed applications" /></a></td>
-<td><a href="https://github.com/nerdrx/zVram"><strong>zVram</strong></a><br/>GPU memory beyond VRAM. Experimental Vulkan and HIP tools.</td>
-</tr>
-<tr>
-<td width="112"><a href="https://github.com/nerdrx/nx-warp"><img src="https://raw.githubusercontent.com/nerdrx/nx-warp/88a6ff8bbbadb2e28415e88eadec00ee226944a2/bench/results/90fps-2026-10-05/continuous/zstd-jobs/bundled.png" width="104" alt="Two matched Warp host packing runs: fixed jobs reduce median time, but the first run has a slower p95 tail" /></a></td>
-<td><a href="https://github.com/nerdrx/nx-warp"><strong>Warp</strong></a><br/>Low-latency VR video compression. Research prototype.</td>
-</tr>
-<tr>
-<td width="112"><a href="https://github.com/nerdrx/novum-xenium"><img src="https://raw.githubusercontent.com/nerdrx/novum-xenium/d5dc635c9cc73cc440e2d943388f40f6a974dfd0/assets/branding/workspace-home.png" width="104" alt="Novum Xenium dashboard with example activity, recent chats, and workspace tools" /></a></td>
-<td><a href="https://github.com/nerdrx/novum-xenium"><strong>Novum Xenium</strong></a><br/>Self-hosted AI workspace, built on Odysseus.</td>
-</tr>
-<tr>
-<td width="112"><a href="https://github.com/nerdrx/nx-recall"><img src="https://raw.githubusercontent.com/nerdrx/nx-recall/0e876a89ce3d8be1840a590d9979f25bea704fe1/assets/readme/voice-settings.png" width="104" alt="Recall local voice assistant settings with voice choice and speaking speed controls" /></a></td>
-<td><a href="https://github.com/nerdrx/nx-recall"><strong>Recall</strong></a><br/>Local transcription, speaker identity, and searchable memory.</td>
-</tr>
-<tr>
-<td width="112"><a href="https://github.com/nerdrx/nx-hub"><img src="https://raw.githubusercontent.com/nerdrx/nx-hub/49d001375a087c01e701ef2d823546a2e7cc9e7f/docs/screenshots/launch.png" width="104" alt="NX Hub launch view with an example multi-app stack" /></a></td>
-<td><a href="https://github.com/nerdrx/nx-hub"><strong>Hub</strong></a><br/>Install, update, and launch the NX apps.</td>
-</tr>
-</table>
+**VR stuff, GPU experiments, and the occasional quality-of-life tool.**
 
-<details>
-<summary><strong>Take a closer look — screenshots &amp; graphs</strong></summary>
+Most of my life happens in VRChat, so most of my code lives around it — the materials on avatars, the bits that stream them, the little apps that keep my setup from being a mess. Some of this is polished, some is "it works, in the best ways".
 
-<details>
-<summary>NXSG — screenshots</summary>
+## what's out there
 
-[![NX Shader Graph — visual materials for VRChat](https://raw.githubusercontent.com/nerdrx/nxsg/main/docs/assets/nxsg-banner.svg)](https://github.com/nerdrx/nxsg)
+| repo | what it is |
+| --- | --- |
+| [nxsg](https://github.com/nerdrx/nxsg) | visual shader editor for VRChat avatars — toon, PBR, fur, particles |
+| [nxclone](https://github.com/nerdrx/nxclone) | avatar clones, dance partners and afterimages for PC VRChat |
+| [zVram](https://github.com/nerdrx/zVram) | peeking at and managing GPU memory beyond VRAM, Vulkan |
+| [nx-warp](https://github.com/nerdrx/nx-warp) | Vulkan compute video codec for low-latency VR streaming — research, not a product yet |
+| [NxTakt](https://github.com/nerdrx/nxtakt) | native Linux DAW, Ableton-style clip launching, mostly from scratch |
+| [pulsenx](https://github.com/nerdrx/pulsenx) | smartwatch heart rate → desktop, OBS, Discord, VRChat |
+| [quadforge](https://github.com/nerdrx/quadforge) | free auto-retopology for Blender, a Quad Remesher replacement |
+| [nx-loom](https://github.com/nerdrx/nx-loom) | authored quad topology for Blender — you draw the layout, it does the quads |
+| [nx-glow](https://github.com/nerdrx/nx-glow) | window colours spilling softly onto your KDE desktop |
+| [nx-hub](https://github.com/nerdrx/nx-hub) | installs and launches all of the above in one place |
 
-Build VRChat avatar materials by connecting nodes in Unity. Toon and PBR shading, fur, particles, procedural textures, and animated effects—with live previews as you work. Built for PC VRChat; mobile materials use a separate snapshot bake.
+Also hanging around: [wivrn-nx](https://github.com/nerdrx/wivrn-nx), my working copy of the OpenXR streaming stack that warp and friends run on.
 
-<a href="https://github.com/nerdrx/nxsg"><img src="https://raw.githubusercontent.com/nerdrx/nxsg/fa81d1095fd976936f6fa6e8ee5490a67cbb9111/docs/images/auto-organize-branches.png" width="100%" alt="NXSG node editor in Unity, with grouped material branches and a live particle preview" /></a>
+## how this stuff gets made
 
-<sub>Connect the graph. Preview the material. Build for VRChat.</sub>
+I do a lot of it with AI. It drafts, it greps, it chews through the boring 80%. But the architecture is mine, the trade-offs are mine, and nothing gets merged that I can't actually explain back. I treat it like a very fast junior who is occasionally confidently wrong.
 
-<table><tr>
-<td width="50%"><a href="https://github.com/nerdrx/nxsg"><img src="https://raw.githubusercontent.com/nerdrx/nxsg/fa81d1095fd976936f6fa6e8ee5490a67cbb9111/docs/assets/hologram-study.png" width="100%" alt="Violet and cyan hologram material rendered on a sphere and capsule" /></a><br/><sub>Hologram study</sub></td>
-<td width="50%"><a href="https://github.com/nerdrx/nxsg"><img src="https://raw.githubusercontent.com/nerdrx/nxsg/fa81d1095fd976936f6fa6e8ee5490a67cbb9111/docs/assets/pearl-study.png" width="100%" alt="Pearl material rendered on a sphere and capsule" /></a><br/><sub>Pearl study</sub></td>
-</tr></table>
+---
 
-[**Get NXSG →**](https://nerdrx.github.io/nxsg/#install) · [First material](https://github.com/nerdrx/nxsg/blob/main/docs/QUICK_START.md) · [Source](https://github.com/nerdrx/nxsg)
+🎮 [VRChat](https://vrchat.com/home/user/usr_416a2a8c-e537-43f2-adb5-509fffec8f58) · release notes live on each repo's **Releases** page — hit **Watch → Custom → Releases** if you want them
 
-</details>
-
-<details>
-<summary>zVram — screenshots</summary>
-
-Explore GPU memory beyond local VRAM: Vulkan and HIP allocation tools, lossless idle snapshots, and managed buffers. **Experimental research**, with measured results and explicit compatibility limits.
-
-<a href="https://github.com/nerdrx/zVram"><img src="https://raw.githubusercontent.com/nerdrx/zVram/84d010f852268708f7c38e094d36b5d5361c61df/assets/manager-preview.png" width="100%" alt="zVram manager preview showing memory telemetry and controls for managed applications" /></a>
-
-<sub>Manager preview. Example allocations illustrate the interface; they are not a performance benchmark.</sub>
-
-[**Explore zVram →**](https://github.com/nerdrx/zVram) · [Project website](https://nerdrx.github.io/zVram/)
-
-</details>
-
-<details>
-<summary>Warp — screenshots and graphs</summary>
-
-A GPU-native video codec exploring low-latency VR streaming with WiVRn NX. Follow the experiments, measured results, and tradeoffs. **Research prototype; no end-user download yet.**
-
-<a href="https://github.com/nerdrx/nx-warp"><img src="https://raw.githubusercontent.com/nerdrx/nx-warp/88a6ff8bbbadb2e28415e88eadec00ee226944a2/bench/results/90fps-2026-10-05/continuous/zstd-jobs/bundled.png" width="100%" alt="Two matched Warp host packing runs: fixed jobs reduce median time, but the first run has a slower p95 tail" /></a>
-
-<sub>Measured host packing time, lower is better. Fixed jobs improved the mean in both runs; p95 worsened in one. This default-off component experiment does not establish live VR latency. [Method and results](https://github.com/nerdrx/nx-warp/blob/88a6ff8bbbadb2e28415e88eadec00ee226944a2/bench/results/90fps-2026-10-05/continuous/zstd-jobs/README.md).</sub>
-
-[**Explore Warp →**](https://github.com/nerdrx/nx-warp) · [Design paper](https://github.com/nerdrx/nx-warp/blob/main/docs/PAPER.md)
-
-</details>
-
-<details>
-<summary>Novum Xenium — screenshots</summary>
-
-Bring models, tools, projects, and chats together in a self-hosted AI workspace, with desktop and Android companions. Built on Odysseus, with NX improvements to usability, reliability, and integration.
-
-<a href="https://github.com/nerdrx/novum-xenium"><img src="https://raw.githubusercontent.com/nerdrx/novum-xenium/d5dc635c9cc73cc440e2d943388f40f6a974dfd0/assets/branding/workspace-home.png" width="100%" alt="Novum Xenium dashboard with example activity, recent chats, and workspace tools" /></a>
-
-<sub>Your workspace, models, and tools together. Dashboard shown with example activity.</sub>
-
-[**Get started with Novum →**](https://github.com/nerdrx/novum-xenium#get-started) · [Desktop and Android releases](https://github.com/nerdrx/novum-xenium/releases)
-
-</details>
-
-<details>
-<summary>Recall — screenshots and graphs</summary>
-
-Local speech transcription, speaker identity, and searchable conversation history for VR and voice chat. Capture starts with the applications you explicitly allow.
-
-<a href="https://github.com/nerdrx/nx-recall"><img src="https://raw.githubusercontent.com/nerdrx/nx-recall/0e876a89ce3d8be1840a590d9979f25bea704fe1/assets/readme/voice-settings.png" width="100%" alt="Recall local voice assistant settings with voice choice and speaking speed controls" /></a>
-
-<sub>Choose a local voice and tune its speaking speed.</sub>
-
-```mermaid
-flowchart LR
-  A["Allowed audio"] --> B["Local transcription"]
-  B --> C["Searchable memory"]
-  classDef nx fill:#211335,stroke:#b699ff,color:#ffffff
-  class A,B,C nx
-```
-
-[**Explore Recall →**](https://github.com/nerdrx/nx-recall) · [Linux download](https://github.com/nerdrx/nx-recall/releases/latest)
-
-</details>
-
-<details>
-<summary>Hub — screenshots and graphs</summary>
-
-One place to discover, install, update, and launch the NX apps. Downloads come from GitHub Releases, with checksum and signature verification where available.
-
-<a href="https://github.com/nerdrx/nx-hub"><img src="https://raw.githubusercontent.com/nerdrx/nx-hub/49d001375a087c01e701ef2d823546a2e7cc9e7f/docs/screenshots/launch.png" width="100%" alt="NX Hub launch view with an example multi-app stack" /></a>
-
-<sub>Launch view with an example app stack.</sub>
-
-```mermaid
-flowchart LR
-  A["GitHub Releases"] --> B["NX Hub"]
-  B --> C["Install and update"]
-  C --> D["Launch your apps"]
-  classDef nx fill:#211335,stroke:#b699ff,color:#ffffff
-  class A,B,C,D nx
-```
-
-[**Get NX Hub →**](https://github.com/nerdrx/nx-hub#start-here)
-
-</details>
-
-</details>
-
-Follow [@nerdrx](https://github.com/nerdrx) for new work. For release updates, choose **Watch → Custom → Releases** on a project.
