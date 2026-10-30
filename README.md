@@ -33,4 +33,4 @@ Most of this is written together with AI. It does the boring work and the greppi
 
 ---
 
-🎮 [VRChat](https://vrchat.com/home/user/usr_416a2a8c-e537-43f2-adb5-509fffec8f58) · release notes live on each repo's **Releases** page — hit **Watch → Custom → Releases** if you want them
+🎮 [VRChat](https://vrchat.com/home/user/usr_416a2a8c-e537-43f2-adb5-509fffec8f58)
